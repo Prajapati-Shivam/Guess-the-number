@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Fredoka One', cursive;
+    }
+
+    body {
+      height: 100vh;
+      background-color: #4158D0;
+      background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    }
+
+    .container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 100vw;
+    }
+
+    h1 {
+      text-align: center;
+      text-transform: uppercase;
+    }
+    .guess-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 70%;
+      margin: 1em auto;
+      border-radius: 15px;
+      box-shadow: 0 0 10px #444;
+    }
+
+    .heading {
+      margin-top: 1.5em;
+      text-align: center;
+      font-size: 1.5rem;
+    }
+
+    .first-head {
+      margin-bottom: .3em;
+    }
+
+    #number {
+      padding: .5em;
+      border: none;
+      outline: none;
+      margin: 2em 0;
+      border-radius: 5px;
+      font-size: inherit;
+      width: 70%;
+    }
+
+    #number:focus {
+      background-color: whitesmoke;
+    }
+
+    #btn {
+      padding: .5em 1em;
+      border: none;
+      outline: none;
+      border-radius: 5px;
+      background-color: #4158D0;
+      color: white;
+      font-size: 1.25rem;
+      letter-spacing: 1px;
+      cursor: pointer;
+      margin-bottom: 1em;
+    }
+
+    #btn:active {
+      background-color: black;
+    }
+
+    #text {
+      margin-bottom: 1em;
+      font-size: larger;
+    }
